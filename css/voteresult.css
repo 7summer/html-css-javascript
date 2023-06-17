@@ -1,0 +1,43 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+
+    margin: auto;
+}
+.sortBtn{
+  width: 80%;
+  height: 30px;
+  background-color: aqua;
+
+  border: none;
+}
+.sortBtn:hover{
+  background-color: aquamarine;
+}
+
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.image{
+    height: 100px;
+    width: auto;
+}
+
+.totalVote{
+    width: 240px;
+    height: 40px;
+
+    border:1px solid #ccc;
+
+    margin: auto;
+}
+.vote{
+    width: 0px;
+    height: 100%;
+    background-color: #fbc2eb;
+    /* 宽度变化时过渡 */
+    transition: width 1s;
+}

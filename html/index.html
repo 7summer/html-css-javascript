@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+
+<body>
+    <div class="ul-list">
+        <ul>
+            <li><a href="register.html">注册</a></li>
+            <li><a href="login.html">登录</a></li>
+            <li><a onclick="javascript:quit()">退出</a></li>
+            <li><a href="voteresult.html">投票结果</a></li>
+            <li>
+                <div class="userInfo"></div>
+            </li>
+        </ul>
+    </div>
+
+    <br/>
+    <div class="topic">
+        <h1>广州航海学院歌手投票页面</h1>
+        <div class="introduce">
+            <div class="title">活动介绍</div>
+            <div class="rule">投票开始：2023-6-1 20:00:00</div>
+            <div class="rule">投票截止：2023-6-30 20:00:00</div>
+            <div class="rule">投票规则：每个用户投票期间只能投10次</div>
+        </div>
+    </div>
+
+    <br/>
+    <div class="container">
+        <div class="info"></div>
+    </div>
+
+    <template id="tmp">
+        <div class="card">
+            <img class="pict" src="#image">
+            <p class="text">姓名：#name</p>
+            <p class="text">学院：#college</p>
+            <div>
+                <label class="text">票数：</label>
+                <div class="totalVote">
+                    <div class="vote"></div>
+                </div>
+                <div class="num">#num</div>
+            </div>
+            <button class="submit" onclick="javascript:vote(index)">投票</button>
+        </div>
+    </template>
+
+    <div class="side-bar">
+        <ul class="side-ul">
+            <li class="side-li">
+                <div class="voteNum"></div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+<script src="../js/data.js"></script>
+<script src="../js/index.js"></script>

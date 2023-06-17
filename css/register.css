@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#divMain{
+    margin: auto;
+
+    margin-left: 440px;
+    margin-top: 50px;
+}
+
+#divTitle{
+    width: 880px;
+    height: 30px;
+
+    border: 1px solid gray;
+    border-bottom: 0;
+    background-color: gray;
+}
+#spanTitle{
+    margin-left: 18px;
+    font-weight: bold;
+
+    line-height: 30px;
+}
+
+#divBody{
+    width: 880px;
+    height: 400px;
+
+    border: 1px solid gray;
+
+    background-color: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+#tableForm{
+    margin: auto;
+
+    line-height: 50px;
+}
+#divVerifyCode{
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+#imgVerifyCode{
+    width: 100px;
+}
+#submitbuttion{
+    width: 100%;
+    height: 32px;
+
+    color: white;
+    background-color: #e60000;
+
+    border: 0;
+}
+#submitbuttion:hover{
+    background-color: #f40000;
+}
+
+
+.tdText{
+    width: 300px;
+
+    text-align: right;
+}
+.tdInput{
+    width: 250px;
+}
+.tdError{
+    width: 300px;
+}
+.inputClass{
+    width: 240px;
+    height: 32px;
+    border: 1px solid #7f9db9;
+
+    line-height: 32px;
+
+    padding-left: 10px;
+}
+.errorClass{
+    color: #f40000;
+    background-image: url("../images/error.png");
+    background-repeat: no-repeat;
+    background-color: #fef2f2;
+    border: 1px solid #ffb8b8;
+
+    font-size: 10pt;
+
+    padding: 8px 8px 8px 35px;
+
+    height: 32px;
+}

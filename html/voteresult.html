@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/voteresult.css">
+</head>
+
+<body>
+    <div class="vote-list">
+        <table id="voteInfo">
+            <tr>
+                <td colspan="2" style="height: 60px;text-align: left;border: none;">
+                    <a href="index.html">返回主页</a>
+                </td>
+                <td style="border: none;">
+                    <button class="sortBtn" onclick="javascript:sortById()">按id升序排序</button>
+                </td>
+                <td style="border: none;">
+                    <button class="sortBtn" onclick="javascript:sortByVoteAscending()">按投票数升序排序</button>
+                </td>
+                <td style="border: none;">
+                    <button class="sortBtn" onclick="javascript:sortByVoteDscending()">按投票数降序排序</button>
+                </td>
+            </tr>
+            <tr>
+                <td>序号</td>
+                <td>图片</td>
+                <td>姓名</td>
+                <td>占比图形</td>
+                <td>票数</td>
+            </tr>
+        </table>
+    </div>
+
+    <template id="tmp">
+        <tr class="insertTr">
+            <td>#id</td>
+            <td><img src="#image" class="image"></td>
+            <td>#name</td>
+            <td>
+                <div class="totalVote">
+                    <div class="vote"></div>
+                </div>
+            </td>
+            <td>#voteNum</td>
+        </tr>
+    </template>
+</body>
+
+<script src="../js/data.js"></script>
+<script src="../js/voteresult.js"></script>

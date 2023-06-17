@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.loginArea{
+    width: 350px;
+    height: auto;
+
+    border-radius: 10px;
+    border: 2px solid #fbc2eb;
+    box-shadow: 0 0 5px rgba(222, 39, 143, 0.5);
+
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+
+    background-color: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+.title{
+    font-size: 30px;
+    color: blue;
+
+    margin-right: 50px;
+}
+
+
+.inputdiv{
+    margin: 20px;
+
+    font-size: 0px;
+}
+
+#divimg{
+    border: 1px solid gray;
+    border-right: 0px;
+
+    display: inline-block;
+    margin-right: 0px;
+
+    background-color: gray;
+}
+.usernameImg{
+    background-image: url("../images/pwd-icons-new.png");
+    background-position: 0px 0px;
+
+    width: 38px;
+    height: 38px;
+}
+.loginpasswordImg{
+    background-image: url("../images/pwd-icons-new.png");
+    background-position: -48px 0px;
+
+    width: 38px;
+    height: 38px;
+}
+
+.verifyInput{   
+    margin: 20px;
+}
+#imgVerifyCode{
+    width: 100px;
+}
+
+#submitbuttion{
+    border: 0px; 
+    
+    width: 100%;
+    height: 30px;
+
+    font-size: 13pt;
+
+    margin: auto;
+    /* margin-left: 50px; */
+
+    background-color: #a6c1ee;
+}
+#submitbuttion:hover{
+    background-color: aqua;
+}
+
+.inputClass{
+    width: 240px;
+    height: 38px;
+    border: 1px solid #7f9db9;
+
+    line-height: 38px;
+
+    padding-left: 10px;
+
+    vertical-align: top;
+}
+.errorClass{
+    color: #f40000;
+    background-image: url("../images/error.png");
+    background-repeat: no-repeat;
+    background-color: #fef2f2;
+    border: 1px solid #ffb8b8;
+
+    font-size: 10pt;
+
+    padding: 8px 8px 8px 35px;
+    margin-left: 20px;
+
+    height: 38px;
+}
+#verifycode{
+    width: 120px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+    <script type="text/javascript" src="../jquery/jquery-3.7.0.js"></script>
+    <script type="text/javascript" src="../js/register.js"></script>
+</head>
+
+<body>
+    <div id="divMain">
+        <div id="divTitle">
+            <span id="spanTitle">新用户注册</span>
+        </div>
+        <div id="divBody">
+            <table id="tableForm">
+                <tr>
+                    <td class="tdText">用户名：</td>
+                    <td class="tdInput"><input type="text" name="userName" id="username" class="inputClass" placeholder="用户名长度为3-20"/></td>
+                    <td class="tdError"><label class="errorClass" id="usernameError"></label></td>
+                </tr>
+                <tr>
+                    <td class="tdText">登录密码：</td>
+                    <td><input type="password" name="loginPassword" id="loginpassword" class="inputClass" placeholder="密码长度为6-30"/></td>
+                    <td><label class="errorClass" id="loginpasswordError"></label></td>
+                </tr>
+                <tr>
+                    <td class="tdText">确认密码：</td>
+                    <td><input type="password" name="reLoginPassword" id="reloginpassword" class="inputClass"/></td>
+                    <td><label class="errorClass" id="reloginpasswordError"></label></td>
+                </tr>
+                <tr>
+                    <td class="tdText">验证码：</td>
+                    <td><input type="text" name="verifyCode" id="verifycode" class="inputClass"/></td>
+                    <td><label class="errorClass" id="verifycodeError"></label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <!-- 模仿上次给老师演示的项目 -->
+                        <div id="divVerifyCode"><label id="imgVerifyCode" onclick="changeVerifyCode()"></label></div>
+                    </td>
+                    <td>
+                        <label>
+                            <a href="javascript:changeVerifyCode()">换一张</a>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="image" id="submitbuttion" src="../images/regist1.jpg" onclick="register()"/>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>

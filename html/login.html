@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <script type="text/javascript" src="../jquery/jquery-3.7.0.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+</head>
+
+<body>
+    <div class="loginArea">
+        <div class="title">
+            <label class="title">用户登录</label>
+        </div>
+        <div class="logindiv">
+            <div class="inputdiv">
+                <div id="divimg" class="usernameImg"></div>
+                <input type="text" name="userName" id="username" class="inputClass" placeholder="用户名">
+            </div>
+            <label class="errorClass" id="usernameError"></label>
+            <div class="inputdiv">
+                <div id="divimg" class="loginpasswordImg"></div>
+                <input type="password" name="loginPassword" id="loginpassword" class="inputClass" placeholder="密码">
+            </div>
+            <label class="errorClass" id="loginpasswordError"></label>
+            <div class="verifyInput">
+                <input type="text" name="verifyCode" id="verifycode" class="inputClass" placeholder="验证码">
+                <label id="imgVerifyCode" onclick="changeVerifyCode()" style="vertical-align: middle;"></label>
+                <a href="javascript:changeVerifyCode()" style="vertical-align: middle;">换一张</a>
+            </div>
+            <label class="errorClass" id="verifycodeError"></label>
+            <div style="margin: 20px;">
+                <!-- <input type="image" id="submitbuttion" src="../images/login1.jpg" onclick="login()"/> -->
+                <button id="submitbuttion" onclick="login()">登录</button>
+                <div style="margin: 20px;">
+                    <a href="register.html">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
