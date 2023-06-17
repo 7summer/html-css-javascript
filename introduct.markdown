@@ -26,19 +26,19 @@
 <ol>
 <li>
     登录界面：<br/>
-    <img src="/interface/登录页面.png" alt="登录页面" title="登录页面">
+    <img src="interface/登录页面.png" alt="登录页面" title="登录页面">
 </li>
 <li>
     注册界面：<br/>
-    <img src="/interface/注册页面.png" alt="注册页面" title="注册页面">
+    <img src="interface/注册页面.png" alt="注册页面" title="注册页面">
 </li>
 <li>
     投票页面：<br/>
-    <img src="/interface/投票界面.png" alt="主页" title="主页">
+    <img src="interface/投票界面.png" alt="主页" title="主页">
 </li>
 <li>
     投票结果页面：<br/>
-    <img src="/interface/投票结果.png" alt="投票结果页面" title="投票结果页面">
+    <img src="interface/投票结果.png" alt="投票结果页面" title="投票结果页面">
 </li>
 </ol>
 
