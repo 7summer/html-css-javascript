@@ -23,24 +23,19 @@
 </ol>
 
 ## 界面介绍
-<ol>
-<li>
-    登录界面：<br/>
-    <img src="/interface/登录页面.png" alt="登录页面" title="登录页面">
-</li>
-<li>
-    注册界面：<br/>
-    <img src="/interface/注册页面.png" alt="注册页面" title="注册页面">
-</li>
-<li>
-    投票页面：<br/>
-    <img src="/interface/投票界面.png" alt="主页" title="主页">
-</li>
-<li>
-    投票结果页面：<br/>
-    <img src="/interface/投票结果.png" alt="投票结果页面" title="投票结果页面">
-</li>
-</ol>
+### 登录界面
+![](https://github.com/7summer/html-css-javascript/blob/main/interface/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png)
+
+### 注册界面
+![](https://github.com/7summer/html-css-javascript/blob/main/interface/%E6%B3%A8%E5%86%8C%E9%A1%B5%E9%9D%A2.png)
+
+### 投票页面
+![](https://github.com/7summer/html-css-javascript/blob/main/interface/%E6%8A%95%E7%A5%A8%E7%95%8C%E9%9D%A2.png)
+
+
+### 投票结果页面
+![](https://github.com/7summer/html-css-javascript/blob/main/interface/%E6%8A%95%E7%A5%A8%E7%BB%93%E6%9E%9C.png)
+
 
 ## 功能介绍
 <ol>
